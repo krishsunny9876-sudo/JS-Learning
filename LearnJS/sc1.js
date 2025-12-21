@@ -1,9 +1,5 @@
-let a = [{ name: "kirten", price: 555 }, { name: "anushka", price: 455 }]
+let a = 50;
+let b = new Number(50);
 
-let func = obj => { return obj.name == "kirten" }
-
-let b = a.findIndex(func)
-
-a[b].price+=1000
-
-console.log(a)
+console.log(typeof a)
+console.log(typeof b)

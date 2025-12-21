@@ -13,8 +13,6 @@ let products = [
 let arr = []
 let check_arr = []
 
-let total_arr = []
-
 products.forEach((product) => {
     let a = product.toLowerCase()
 
