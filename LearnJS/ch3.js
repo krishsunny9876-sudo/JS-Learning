@@ -2,10 +2,10 @@ let users = [
     "  Kirten ",
     "bob",
     "KIRTEN",
-    "Anu_shka",
+    "Ram_saini",
     "bo",
     "Bob  ",
-    "anu_shka"
+    "Ram_sainI"
 ];
 
 let arr = []
