@@ -2,11 +2,12 @@
 
 /*🔹 Set vs Array (Quick Comparison)
 
-Feature	               Array	     Set
+Feature	               Array	  Set
 Allows duplicates	   ✅ Yes	❌ No
 Fast lookup	           ❌ Slow	✅ Fast
 Order preserved	       ✅ Yes	✅ Yes
 Best for uniqueness	   ❌ No	    ✅ Yes   */
+
 let seen = new Set();
 
 seen.add("kirten");
