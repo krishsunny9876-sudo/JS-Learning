@@ -56,7 +56,6 @@ function check_input(guess) {
             else if (guess < random) {
                 result.innerHTML = `Too Low!`
             }
-
         }
     }
 }
