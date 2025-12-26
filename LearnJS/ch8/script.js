@@ -70,7 +70,7 @@ function end_game() {
 {
     new_button.addEventListener('click', function (e) {
         e.preventDefault()
-        
+
         play = true;
         attempt = 0
         pre_num.innerHTML = ''
@@ -80,6 +80,9 @@ function end_game() {
         //default css of result
         result.style.fontSize = '15px'
         result.style.color = 'white'
+
+        //Resetting the value
+        random = Math.floor(Math.random() * 100 + 1)
 
         if (input.hasAttribute('disabled')) {
             input.removeAttribute('disabled')
