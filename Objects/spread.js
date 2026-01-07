@@ -6,7 +6,7 @@ let obj2 = { "user3": "dipanshu", "user4": "sunny" }
 let obj3={obj1,obj2}
 console.log(obj3)
 
-//With Spread sustem
+//With Spread system 
 
 let obj4={...obj1,...obj2}
 console.log(obj4)
